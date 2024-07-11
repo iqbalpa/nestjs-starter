@@ -1,18 +1,18 @@
-# Real Time Chat Web Application
+# NestJS Starter
 
-This is a **backend** site of a full-stack real time chat web application. The frontend site is developed above Next.js, tailwind css, and several tools & libraries. For real time communication between user, I use websocket.
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+</p>
+
+NestJS + prisma ORM starter with useful development features and configurations for backend development.
 
 ## Features
-1. Authentication and Authorization
-2. Profile page
-3. Search users (you can add them as your friend)
-4. Friend list
-5. Chat with other users (real time chat)
-6. History chat. Your chat and your friends are stored in the database.
+1. Authentication and authorization
+2. CRUD users
 
 ## Getting Started
-You can find the frontend repository [here](https://github.com/iqbalpa/chat-app-frontend)
-1. Clone this backend repository `git clone https://github.com/iqbalpa/chat-app-backend.git`
+You can find the frontend repository [here](https://github.com/iqbalpa/nestjs-starter)
+1. Clone this backend repository `git clone https://github.com/iqbalpa/nestjs-starter.git`
 2. Install the required packages
 ```bash
 yarn install
@@ -22,5 +22,5 @@ yarn install
 yarn start:dev
 ```
 5. Run the frontend application
-6. Visit `localhost:3001`
+6. Visit `localhost:3000`
 
