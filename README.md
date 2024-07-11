@@ -11,7 +11,6 @@ NestJS + prisma ORM starter with useful development features and configurations 
 2. CRUD users
 
 ## Getting Started
-You can find the frontend repository [here](https://github.com/iqbalpa/nestjs-starter)
 1. Clone this backend repository `git clone https://github.com/iqbalpa/nestjs-starter.git`
 2. Install the required packages
 ```bash
