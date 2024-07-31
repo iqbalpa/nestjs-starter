@@ -21,21 +21,6 @@ model User {
   role          Role      @default(USER)
 }
 
-model Friend {
-  userId        Int
-  friendId      Int
-
-  @@unique([userId, friendId])
-}
-
-model Message {
-  id            Int           @default(autoincrement()) @id
-  name          String
-  text          String
-  roomId        String
-  date          DateTime      @default(now())
-}
-
 enum Role {
   ADMIN
   USER
